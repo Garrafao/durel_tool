@@ -1,0 +1,60 @@
+### Default Build targets if mvn###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code and other###
+.vscode/
+.settings/
+
+### backend ###
+# Allow it for now, its just dev in a private repo
+# *.properties
+mvnw*
+
+### other ###
+yarn.lock
+backup
+
+update-git.sh
+orga/hours
+orga/meeting_enrique.mp4
+orga/190517-Vertrag-Streichert.pdf
+durel/target/*
+data/Neologisms/*
+durel/.idea/*
+python/durel/*
+durel/.*
+WUGs/
+LSCDBenchmark/
+docker/deployment_files.tar.gz
+docker/deployment_files/durel_system_latest.tar.gz
+docs/database/Migration/MigrationCode/__pycache__/<<<
+durel/bin/
+durel_system_latest.tar.gz
